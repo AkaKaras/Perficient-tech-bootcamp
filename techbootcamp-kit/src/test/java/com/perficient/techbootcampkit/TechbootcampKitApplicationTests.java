@@ -14,16 +14,5 @@ class TechbootcampKitApplicationTests {
 	void contextLoads() {
 	}
 	
-	
-	TechbootcampKitApplication c;
-	@BeforeEach
-	void setUp() {
-		c = new TechbootcampKitApplication();
-	}
-	
-	@Test
-	void test_add5() {
-		assertEquals(10, c.add5(5));
-	}
 
 }

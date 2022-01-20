@@ -11,7 +11,4 @@ public class TechbootcampKitApplication {
 		SpringApplication.run(TechbootcampKitApplication.class, args);
 	}
 
-	public int add5(int a) {
-		return a+5;
-	}
 }
